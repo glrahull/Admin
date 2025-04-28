@@ -61,6 +61,6 @@ def test_validatelogin(data):
     # login.enter_ncb()
     # login.enter_od_amount()
     # login.enter_tp_amount()
-    #
+
     driver.quit()
 
