@@ -16,7 +16,3 @@ def fetchelementLocators(section,key):
     return config.get(section, key)
 
 
-def fetchelementLocators(section, key):
-    config = configparser.ConfigParser()
-    config.read("./ConfigurationFiles/Elements.cfg")
-    return config.get(section,key)

@@ -1,3 +1,4 @@
+
 import pytest
 from Pages import LoginPage
 from Base import InitiateDriver
@@ -7,16 +8,24 @@ import allure
 @allure.title("Login Test - Verify successful login")
 @allure.description("This test verifies the login functionality with valid credentials.")
 
+# @pytest.mark.parametrize('data', DataGen.dataGenerator())
+# def test_combined(data):
+#     # Run the first test case
+#     driver = InitiateDriver.startBrowser()
+#
+#     # Test login functionality
+
+
 @pytest.mark.parametrize('data', DataGen.dataGenerator())
-def test_combined(data):
-    # Run the first test case
+
+def test_validatelogin(data):
     driver = InitiateDriver.startBrowser()
 
-    # Test login functionality
     login = LoginPage.LoginClass(driver)
     login.enter_username(data[0])
     login.enter_password(data[1])
     login.click_signin()
+
     assert login.is_login_successful() == True
 
     # Wait for some time if needed
@@ -54,3 +63,4 @@ def test_combined(data):
     # login.enter_tp_amount()
     #
     driver.quit()
+

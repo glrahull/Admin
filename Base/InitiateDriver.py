@@ -20,4 +20,8 @@ def startBrowser():
 
 
 def closeBrowser():
+
     driver.close(10)
+
+
+

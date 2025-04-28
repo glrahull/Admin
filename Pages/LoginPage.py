@@ -2,8 +2,10 @@
 from Library import ConfigReader
 from selenium.webdriver.common.by import By
 from Decorators.Slow import slow_down
+
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+
 
 class LoginClass:
 
@@ -17,6 +19,7 @@ class LoginClass:
     @slow_down(3)
     def enter_username(self,username):
         driver.find_element(by=By.NAME,value=ConfigReader.fetchelementLocators("Login", "username_name")).send_keys(username)
+
 
     @slow_down(5)
     def enter_password(self,password):
@@ -172,3 +175,4 @@ class LoginClass:
     # @slow_down(5)
     # def enter_net_amount(self):
     #     driver.find_element(by=By.NAME,value=ConfigReader.fetchelementLocators("Login","enter_net_premium_name")).send_keys("1000")
+
