@@ -175,4 +175,3 @@ class LoginClass:
     # @slow_down(5)
     # def enter_net_amount(self):
     #     driver.find_element(by=By.NAME,value=ConfigReader.fetchelementLocators("Login","enter_net_premium_name")).send_keys("1000")
-

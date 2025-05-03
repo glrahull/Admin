@@ -63,4 +63,3 @@ def test_validatelogin(data):
     # login.enter_tp_amount()
 
     driver.quit()
-

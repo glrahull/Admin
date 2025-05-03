@@ -1,27 +1,25 @@
-import time
-
-from selenium.webdriver import Chrome
-from selenium.webdriver import Firefox
+from selenium.webdriver import Chrome, Firefox
 from Library import ConfigReader
 
+driver = None  # Declare globally
 
-def startBrowser():
+def startBrowser(url_key='Application_URL'):
     global driver
-    if ((ConfigReader.readConfigData('Details', 'Browser')) == 'chrome'):
-        driver = Chrome()
+    browser = ConfigReader.readConfigData('Details', 'Browser')
+    url = ConfigReader.readConfigData('Details', url_key)
 
-    elif ((ConfigReader.readConfigData('Details', 'Browser')) == 'firefox'):
+    if browser == 'chrome':
+        driver = Chrome()
+    elif browser == 'firefox':
         driver = Firefox()
     else:
         driver = Chrome()
-    driver.get(ConfigReader.readConfigData('Details', 'Application_URL'))
+
+    driver.get(url)
     driver.maximize_window()
     return driver
 
-
 def closeBrowser():
-
-    driver.close(10)
-
-
-
+    global driver
+    if driver:
+        driver.quit()

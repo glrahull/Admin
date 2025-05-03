@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aad3eb7-7170-4279-b6ae-5f7a0b6cf48b" name="Changes" comment="" />
+    <list default="true" id="1aad3eb7-7170-4279-b6ae-5f7a0b6cf48b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DataGenerate/PosLoginData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/PosLogin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestCases/test_case_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/InitiateDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/InitiateDriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationFiles/Config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationFiles/Config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigurationFiles/Elements.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationFiles/Elements.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataGenerate/DataGen.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataGenerate/DataGen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ConfigReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ConfigReader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/LoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_case_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_case_01.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,23 +43,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_case_01.test_ValidateLogin.executor": "Run",
-    "Python tests.pytest for test_case_02.test_validatemis.executor": "Run",
-    "Python.ConfigReader.executor": "Run",
-    "Python.InitiateDriver.executor": "Run",
-    "Python.LoginPage.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/rahul/PycharmProjects/Admin"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_case_01.test_ValidateLogin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_case_02.test_validatemis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ConfigReader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.InitiateDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rahul/PycharmProjects/Admin&quot;
   },
-  "keyToStringList": {
-    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
+  &quot;keyToStringList&quot;: {
+    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: [
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rahul\PycharmProjects\Admin" />
+      <recent name="C:\Users\rahul\PycharmProjects\Admin\TestCases" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python tests.pytest for test_case_02.test_validatemis">
     <configuration name="ConfigReader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Admin" />
