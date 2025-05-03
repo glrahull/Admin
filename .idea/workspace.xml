@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aad3eb7-7170-4279-b6ae-5f7a0b6cf48b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataGenerate/PosLoginData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/PosLogin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCases/test_case_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Admin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/InitiateDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/InitiateDriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigurationFiles/Config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationFiles/Config.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConfigurationFiles/Elements.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigurationFiles/Elements.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataGenerate/DataGen.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataGenerate/DataGen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ConfigReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ConfigReader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/LoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCases/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCases/test_case_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_case_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_case_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCases/test_case_02.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

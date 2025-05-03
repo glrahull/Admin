@@ -1,4 +1,6 @@
 import pytest
+from selenium.common import NoSuchElementException
+
 from Pages import PosLogin
 from Base import InitiateDriver
 from DataGenerate import PosLoginData

@@ -26,7 +26,7 @@ def test_validatelogin(data):
     login.enter_password(data[1])
     login.click_signin()
 
-    assert login.is_login_successful() == True
+    assert login.is_login_successful()
 
     # Wait for some time if needed
     # time.sleep(2)
