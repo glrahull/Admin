@@ -5,8 +5,7 @@ from Base import InitiateDriver
 from DataGenerate import DataGen
 import allure
 
-@allure.title("Login Test - Verify successful login")
-@allure.description("This test verifies the login functionality with valid credentials.")
+
 
 # @pytest.mark.parametrize('data', DataGen.dataGenerator())
 # def test_combined(data):
